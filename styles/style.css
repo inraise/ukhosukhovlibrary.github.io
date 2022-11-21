@@ -92,8 +92,7 @@ h1[class] {
     font-size: 35px;
 }
 
-elements {
-    width: 100%;
+.cards-container {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -106,8 +105,8 @@ elements {
     background-color: #FFFFFF;
     margin: 0 auto;
     border-radius: 32px;
-    padding: 10px;
     justify-items: center;
+    padding: 20px 10px 10px;
 }
 
 .card * {
@@ -118,6 +117,8 @@ elements {
 
 a {
     text-decoration: none;
+    margin: auto;
+    padding-top: 20px;
 }
 
 h6 {
@@ -143,12 +144,12 @@ p {
     height: 207px;
     width: 360px;
     padding-top: 18px;
+    border-radius: 20px;
 }
 
 .card-line {
     width: 90%;
     height: 0;
-
     border: 1px solid #292929;
 }
 
@@ -174,4 +175,14 @@ p {
 
 .card-inline p {
     padding: 0;
+}
+
+#stories {
+    display: none;
+}
+
+.footer-h6 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.1);
+    margin: auto 20px 20px auto;
 }
