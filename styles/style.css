@@ -147,15 +147,6 @@ p {
     border-radius: 20px;
 }
 
-@media (max-width: 800px) {
-    .card img {
-        height: 107px;
-        width: 260px;
-        padding-top: 18px;
-        border-radius: 20px;
-    }
-}
-
 .card-line {
     width: 90%;
     height: 0;
