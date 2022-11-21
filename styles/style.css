@@ -147,7 +147,7 @@ p {
     border-radius: 20px;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 800px) {
     .card img {
         height: 107px;
         width: 260px;
@@ -188,7 +188,7 @@ p {
 }
 
 #stories {
-    display: block;
+    display: none;
 }
 
 .text {
