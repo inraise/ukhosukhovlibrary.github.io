@@ -60,7 +60,6 @@ main {
     border-radius: 50px;
     border: 5px solid #292929;
     border-bottom-color: #2D85C4;
-
 }
 
 h1 {
@@ -68,7 +67,7 @@ h1 {
     font-style: normal;
     font-weight: 300;
     font-size: 45px;
-    line-height: 100px;
+    line-height: 80px;
 
     color: #FFFFFF;
     text-align: center;
@@ -96,7 +95,6 @@ h1[class] {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 30px;
 }
 
 .card {
@@ -121,9 +119,64 @@ a {
     padding-top: 20px;
 }
 
+@media (max-width: 800px) {
+    h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    h1[class] {
+        font-size: 25px;
+    }
+
+    .main-logo {
+        padding-right: 0;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    h1[class] {
+        font-size: 15px;
+    }
+
+    .main-logo {
+        margin-right: -20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .nav-desc {
+        display: none;
+    }
+
+    .card h6 {
+        font-size: 17px;
+    }
+
+    .card p {
+        display: none;
+    }
+}
+
 h6 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 1300;
     font-size: 24px;
     line-height: 150%;
     color: #292929;
@@ -141,8 +194,8 @@ p {
 }
 
 .card img {
-    height: 207px;
-    width: 360px;
+    height: 51%;
+    width: 90%;
     padding-top: 18px;
     border-radius: 20px;
 }
@@ -201,4 +254,3 @@ footer {
     color: rgba(255, 255, 255, 0.1);
     margin: auto 20px 20px auto;
 }
-
