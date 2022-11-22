@@ -119,9 +119,15 @@ a {
     padding-top: 20px;
 }
 
+@media (min-width: 800px) {
+    .card-inline {
+        display: flex;
+    }
+}
+
 @media (max-width: 800px) {
     h1 {
-        font-size: 32px;
+        font-size: 35px;
         line-height: 50px;
     }
 
@@ -141,15 +147,23 @@ a {
         width: 200px;
         height: 200px;
     }
-    
+
+    .card-inline {
+        display: none;
+    }
+
+    .card p {
+        display: none;
+    }
+
     .card h6 {
-        padding-bottom: 20px;
+        font-size: 20px;
     }
 }
 
 @media (max-width: 550px) {
     h1 {
-        font-size: 22px;
+        font-size: 25px;
         line-height: 50px;
     }
 
@@ -171,15 +185,6 @@ a {
 
     .card h6 {
         font-size: 17px;
-        padding-bottom: 20px;
-    }
-
-    .card p {
-        display: none;
-    }
-    
-    .card-inline {
-        dispaly: none;
     }
 }
 
@@ -227,7 +232,6 @@ p {
 
 .card-inline {
     margin-top: 16px;
-    display: flex;
 }
 
 .card-inline img {
